@@ -1,0 +1,47 @@
+﻿body
+{
+	background: url(Imagens/imagem123.gif); /*imagem de fundo*/
+	height: 650px; /*altura da imagem de fundo*/
+	
+}
+
+h4 /*texto onde diz o nome*/
+{
+font-family:Arial;
+color: red;
+margin-right: 90px;
+text-align: right;
+}
+.ecran  /*barras de informação*/
+{
+    background-color:  Black;
+    width:580px;
+    height: 575px;
+}
+
+.texto /*texto das barras*/
+{
+    font-family:Arial;
+    font-size: 20px;
+	color:red;
+	margin-right:105px;
+}
+
+.logo /*logotipo do jogo*/
+{
+	margin-left:720px;
+	margin-top:30px;
+	width: 300px;
+	height:180px;
+}
+    
+.botão 
+{
+    font-family:Arial;
+    font-size:20px;
+    color:black;
+    margin-left:10px;
+    background-color:Yellow;
+    border-style: outset;
+    text-align:center
+}

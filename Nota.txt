@@ -1,0 +1,38 @@
+Funções implementadas no jogo:
+
+contador();
+colocaimagem(y,x,a);
+iniciaEcra();
+initEcran();
+getPosica_X(x);
+getPosicao_Y(y);
+colocaghostEcra();
+changePosition(event);
+move_pacman();
+move_ghost();
+
+/*
+Numeração dos array's:
+Fundo preto - 0
+Comida do boneco - 1
+Parede - 2
+Chão Rápido - 3
+Chão Rápido com comida - 4
+Fantasma - 5
+Estrela - 6
+Tuneis (esq-direita) - 8
+Tuneis_1 (direita-esq) - 9 
+*/
+
+Altura e Largura (ecrã do jogo)= 25;
+
+Quantidade de objectos inseridos no jogo:
+- 2 Tuneis - Esq-Dir / Dir-Esq
+- 1 Chão Rápido s/comida
+- 3 Chão Rápido c/comida
+- 4 Estrelas
+- 6 Fantasmas
+- 308 comidas
+- 3 vidas
+
+

@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>Jogo do Pacman</title>
+    <script type="text/javascript" src="Pac-man.js"></script>
+    <style type="text/css">@import "estilo.css";</style>
+</head>
+
+
+<body onkeyup="changePosition(event)" onLoad="initEcran();">
+
+ <table>
+	<tr>
+		<a href=Jogo-PacMan.html>
+		   <img src="Imagens/Pacman.jpg" class="logo" style="position:absolute; z-index:1" />
+		</a>
+		
+		<td>
+			<div class="ecran" name="ecran" >
+				<img name="pacman" src="Imagens/right.gif" style="position:absolute; z-index:1">	
+				<img name="ghost" src="Imagens/ghost.gif" style="position:absolute; z-index:1">	
+				
+			</div>
+		</td>
+		<td>
+			<form name="Contador">
+				<b class="texto">Pontos</b>
+				<b class="texto">Vidas</b>
+				<b class="texto">Comida</b>
+				<b class="texto">Tempo</b>
+				<br>
+					<input type="text" name="Pontuação"/>
+					<input type="text" name="vidas"/>
+					<input type="text" name="comida"/>
+					<input type="text" name="tempo"/>
+				</br> 
+			</form>	   
+		</td>
+	</tr>
+</table>
+<h4>Frederico Balcão</h4>
+
+</body>
+<embed src="Sons/musica1.mp3" autostart="true" loop="true" hidden="true"></embed>
+</html>
+
